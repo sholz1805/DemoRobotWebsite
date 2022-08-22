@@ -1,0 +1,42 @@
+.tech-news{
+    display: flex;
+    padding: 4%;
+    justify-content: space-between;
+
+}
+
+.p1{
+    margin-top: 5%;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tech-news h2{
+    font-size: 48px;
+}
+
+.p2{
+    line-height: 1.9em;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+@media only screen and (max-width: 768px){
+    .tech-news{
+        display: block;
+        padding: 4%;
+        justify-content: space-between;
+    
+    }
+    
+    .p1{
+        margin-top: 5%;
+        font-weight: 600;
+        font-size: 18px;
+    }
+    
+    .tech-news img{
+        height: 400px;
+        width: 335px;
+    }
+}

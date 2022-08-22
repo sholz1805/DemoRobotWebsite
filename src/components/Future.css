@@ -1,0 +1,63 @@
+.future{
+    display: flex;
+}
+
+.leftbox{
+    padding: 4%;
+    background-color: black;
+    width: 50vw;
+    height: 80vh;
+    color: white;
+    line-height: 1.8;
+}
+
+.leftbox p{
+    font-size: 32px;
+}
+
+.leftbox em{
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.rightbox{
+    background-color: rgba(185,223,223,255);
+    width: 50vw;   
+}
+
+.img1{
+       display: flex;
+       position: relative;
+       margin-top: -25%;
+       padding: 4%;
+        
+}
+
+
+@media only screen and (max-width: 768px){
+    .future{
+        display: block;
+    }
+    
+    .leftbox{
+        padding: 4%;
+        background-color: black;
+        width: 100vw;
+        height: 50vh;
+        color: white;
+        line-height: 1.8;
+    }
+
+    .img1{
+        display: inline-block;
+        justify-content: space-between;
+        background-color: rgba(185,223,223,255);
+       
+    }
+    
+    .media{
+        height: 175px;
+        width: 170px;
+    }
+
+}

@@ -1,0 +1,145 @@
+
+.start{
+    padding: 4%;
+    background-color: white;
+    height: 12vh;
+    padding: 1%; 
+    
+}
+
+.starter{
+    display:flex;
+    padding: 1%;
+    margin-left: 5%; 
+}
+
+.searchbar{
+    height: 8vh;
+    width: 35vw;
+    padding: 8px;
+    border: 1px solid rgb(201, 200, 200);
+}
+
+.icon{
+    height: 15px;
+    width: 15px;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+
+input{
+    padding: 4%;
+    height: 4vh;
+    width: max-content;
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none; 
+
+}
+
+.fabar{
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: -4%;
+}
+
+.robots{
+    padding-top: 5%;
+    background-color:black ;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+    display: flex;
+}
+
+.fonts h1{
+    margin-top: 15%;
+    font-size: 100px;
+    line-height: 1.1em;
+    margin-right: 5%;
+}
+
+.fonts p{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .start{
+        padding: 4%;
+        background-color: white;
+        height: 12vh;
+        width: fit-content;
+        
+    }
+    
+    .starter{
+        display:flex;
+        height: 12vh;
+        padding: 3%;
+        font-size: small;
+        margin-left: 5%; 
+        width: fit-content;
+    }
+    .searchbar{
+        height: 8vh;
+        width: 80vw;
+        border: 1px solid rgb(201, 200, 200);
+    }
+
+    .icon{
+        height: 15px;
+        width: 20px;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    
+    input{
+        
+        border: 1px solid rgb(201, 200, 200);
+        padding: 4%;
+        height: 4vh;
+        width: 60vw;
+        border: none;
+        background-color: transparent;
+        resize: none;
+        outline: none;
+    }
+
+    .robots{
+        padding-top: 5%;
+        background-color:black ;
+        height: max-content;
+        color: white;
+        display: block;
+    }
+
+    .robots img{
+        height: 400px;
+        width: 400px;
+    }
+    
+    .fonts h1{
+        margin-top: 1%;
+        font-size: 60px;
+        line-height: 1.1em;
+        margin-left: 5%;
+    }
+    
+    .fonts p{
+        font-size: 18px;
+        margin-left: 5%;
+        text-align: left;
+    }
+
+    .fabar{
+        height: 18px;
+        width: 18px;
+        /* float: right; */
+        margin-top: -12%;
+    }
+
+}

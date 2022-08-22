@@ -1,0 +1,46 @@
+
+.rei{
+    padding: 8%;
+    margin-top: 3%;
+    background-color: rgba(51,51,51,255);
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    text-align: left;
+
+}
+
+.heading{
+    padding: 2%;
+    color: #aea16a;
+    font-size: 32px;
+}
+
+.info{
+    padding: 2%;
+    color: white;
+    font-size: 22px;
+    font-weight: 100;
+
+}
+
+.three{
+    padding: 2%;
+    height: 70px;
+    width: 70px;
+    filter: invert(69%) sepia(22%) saturate(583%) hue-rotate(11deg) brightness(89%) contrast(91%);
+}
+
+@media only screen and (max-width: 768px){
+    .rei{
+        padding: 8%;
+        margin-top: 5%;
+        background-color: rgba(51,51,51,255);
+        display: block;
+        justify-content: space-between;
+        height: max-content;
+        text-align: left;
+        line-height: 3em;
+    
+    }
+}

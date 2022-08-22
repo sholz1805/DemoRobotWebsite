@@ -1,0 +1,50 @@
+.bezoz{
+    padding: 8%;
+    background-color: black;
+}
+
+.bezoz h1{
+    color:#aea16a;
+    font-size: 90px;
+}
+
+.bezoz p{
+    color: white;
+    font-size: 26px;
+    font-weight: 100;
+    line-height: 1.5em;
+}
+
+.bezoz h2{
+    padding: 2%;
+    font-size: 32px;
+    color: white;
+    text-align: right;
+}
+
+@media only screen and (max-width: 768px){
+    .bezoz{
+        padding: 2%;
+        background-color: black;
+    }
+    
+    .bezoz h1{
+        color:#aea16a;
+        font-size: 90px;
+    }
+    
+    .bezoz p{
+        color: white;
+        font-size: 26px;
+        font-weight: 100;
+        line-height: 1.5em;
+    }
+    
+    .bezoz h2{
+        padding: 2%;
+        font-size: 32px;
+        color: white;
+        text-align: right;
+    }
+    
+}

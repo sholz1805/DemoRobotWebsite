@@ -1,0 +1,45 @@
+
+.tech-trend{
+    padding: 4%;
+    text-align: center;
+}
+
+.tech-trend h1{
+    padding: 2%;
+    color: #aea16a;
+    font-size: 48px;
+}
+
+.tech-trend p{
+    padding: 1%;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.the-robotsB{
+    display: flex;
+    padding: 4%;
+}
+
+@media only screen and (max-width: 768px){
+    .tech-trend h1{
+        padding: 4%;
+        color: #aea16a;
+        font-size: 48px;
+    }
+    
+    .tech-trend p{
+        padding: 1%;
+        font-weight: 100;
+        font-size: 20px;
+    }
+    
+    .the-robotsB{
+        display: block;
+        padding: 2%;
+    }
+    
+    .the-robotsB img{
+        width: 370px;
+    }
+}
